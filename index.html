@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Cartelera</title>
+  </head>
+  <body>
+    <div id="contenedor-principal"></div>
+    <div id="contenedor-compra-entradas">
+      <div class="contenedorTextoCompra">
+        <p class="peliculaSeleccionada">La pelicula seleccionada es:</p>
+      </div>
+      <div>
+        <p>
+          Porfavor seleccione el numero de entradas. El valor de cada una es de
+          2000$
+        </p>
+      </div>
+      <div class="contenedorEntradas">
+        <input type="number" id="entradas" name="entradas" min="1" max="100" />
+      </div>
+      <div class="contenedorBoton">
+        <button class="botonCalcular">Calcular</button>
+      </div>
+      <div class="confirmarCompra">
+        <p class="seleccionarEntradas">El valor total de sus entradas será:</p>
+      </div>
+      <div class="contenedorBotonCompra">
+        <button class="botonFinalizar">Finalizar</button>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
